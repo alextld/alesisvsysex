@@ -27,12 +27,15 @@ The GUI uses [PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/), and the MIDI laye
 
 ## Dependencies
 
-This software is written for Python 3.5+. It requires a system installation of PyQt5, portmidi, and an update to python. Install this with Homebrew and have pip binary linked:
+This software is written for Python 3.5+. It requires a system installation of PyQt5, portmidi, and an update to python. Install this with Homebrew:
  
 `brew install python pyqt portmidi`
+
+After link pip3 to pip with this handy command:
+
 `pip3 install -U pip`
 
-then run:
+then run this:
 
 `pip3 install -r requirements.pip3`
 
