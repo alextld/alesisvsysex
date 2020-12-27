@@ -1,3 +1,4 @@
+Thanks so much for everyone who contributed, I just made it work for macos Big Sur <3
 # alesisvsysex
 
 Python tool for configuring Alesis MIDI controllers
@@ -26,11 +27,12 @@ The GUI uses [PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/), and the MIDI laye
 
 ## Dependencies
 
-This software is written for Python 3.5+. It requires a system installation of PyQt5. Installing this dependency looks something like this on Ubuntu:
+This software is written for Python 3.5+. It requires a system installation of PyQt5, portmidi, and an update to python. Install this with Homebrew and have pip binary linked:
+ 
+`brew install python pyqt portmidi`
+`pip3 install -U pip`
 
-`sudo apt-get install python3-pyqt5`
-
-The remaining dependencies can be installed in a virtualenv using pip:
+then run:
 
 `pip3 install -r requirements.pip3`
 
